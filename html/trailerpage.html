@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    
+    <script src="/js/script.js"></script>
   </head>
-  <body>
-    <iframe
+  <body onload="ChangeTrailer()">
+    
+    <iframe id="movietrailer"
           class="embed-responsive-item"
           src="https://www.youtube.com/watch?v=bK6ldnjE3Y0"
           allowfullscreen
@@ -14,6 +17,5 @@
 
           <button onclick="BackButton()">Back</button>
 
-    <script src="/js/script.js"></script>
   </body>
 </html>

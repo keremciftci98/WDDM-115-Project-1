@@ -3,6 +3,7 @@ function SelectIndex(index) {
   idx = index;
   localStorage.setItem("selectedIndex", index);
 }
+let previousShownIndex = 0;
 
 function ShowInfo() {
   var selectedIndex = localStorage.getItem("selectedIndex");
@@ -17,9 +18,26 @@ function ShowInfo() {
   } else if (selectedIndex == 4) {
     document.getElementById("theholdovers.des").style.display = "block";
   } else if (selectedIndex == 5) {
-    document.getElementById("killersoftheflowermoon.des").style.display = "block";
+    document.getElementById("killersoftheflowermoon.des").style.display =
+      "block";
   }
+
+  if (previousShownIndex == 1) {
+    document.getElementById("oppenheimer.des").style.display = "none";
+  } else if (previousShownIndex == 2) {
+    document.getElementById("poorthings.des").style.display = "none";
+  } else if (previousShownIndex == 3) {
+    document.getElementById("barbie.des").style.display = "none";
+  } else if (previousShownIndex == 4) {
+    document.getElementById("theholdovers.des").style.display = "none";
+  } else if (previousShownIndex == 5) {
+    document.getElementById("killersoftheflowermoon.des").style.display =
+      "none";
+  }
+
+  previousShownIndex = selectedIndex;
 }
+
 
 function GoToTrailerPage() {
   document.location.href = "/html/trailerpage.html";

@@ -4,6 +4,7 @@ function SelectIndex(index) {
   localStorage.setItem("selectedIndex", index);
 }
 let previousShownIndex = 0;
+let previousShownIndexCast = 0;
 
 function ShowInfo() {
   var selectedIndex = localStorage.getItem("selectedIndex");
@@ -38,6 +39,38 @@ function ShowInfo() {
   previousShownIndex = selectedIndex;
 }
 
+function ShowCast() {
+  var selectedIndex = localStorage.getItem("selectedIndex");
+  console.log("ShowCast index: " + selectedIndex);
+
+  if (selectedIndex == 1) {
+    document.getElementById("oppenheimer.cast").style.display = "block";
+  } else if (selectedIndex == 2) {
+    document.getElementById("poorthings.cast").style.display = "block";
+  } else if (selectedIndex == 3) {
+    document.getElementById("barbie.cast").style.display = "block";
+  } else if (selectedIndex == 4) {
+    document.getElementById("theholdovers.cast").style.display = "block";
+  } else if (selectedIndex == 5) {
+    document.getElementById("killersoftheflowermoon.cast").style.display =
+      "block";
+  }
+
+  if (previousShownIndexCast == 1) {
+    document.getElementById("oppenheimer.cast").style.display = "none";
+  } else if (previousShownIndexCast == 2) {
+    document.getElementById("poorthings.cast").style.display = "none";
+  } else if (previousShownIndexCast == 3) {
+    document.getElementById("barbie.cast").style.display = "none";
+  } else if (previousShownIndexCast == 4) {
+    document.getElementById("theholdovers.cast").style.display = "none";
+  } else if (previousShownIndexCast == 5) {
+    document.getElementById("killersoftheflowermoon.cast").style.display =
+      "none";
+  }
+
+  previousShownIndexCast = selectedIndex;
+}
 
 function GoToTrailerPage() {
   document.location.href = "/html/trailerpage.html";

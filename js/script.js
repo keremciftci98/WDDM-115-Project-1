@@ -22,18 +22,33 @@ function ShowInfo() {
     document.getElementById("killersoftheflowermoon.des").style.display =
       "block";
   }
+  
+  if (previousShownIndex != selectedIndex) {
+    if (previousShownIndex == 1) {
+      document.getElementById("oppenheimer.des").style.display = "none";
+    } else if (previousShownIndex == 2) {
+      document.getElementById("poorthings.des").style.display = "none";
+    } else if (previousShownIndex == 3) {
+      document.getElementById("barbie.des").style.display = "none";
+    } else if (previousShownIndex == 4) {
+      document.getElementById("theholdovers.des").style.display = "none";
+    } else if (previousShownIndex == 5) {
+      document.getElementById("killersoftheflowermoon.des").style.display =
+        "none";
+    }
 
-  if (previousShownIndex == 1) {
-    document.getElementById("oppenheimer.des").style.display = "none";
-  } else if (previousShownIndex == 2) {
-    document.getElementById("poorthings.des").style.display = "none";
-  } else if (previousShownIndex == 3) {
-    document.getElementById("barbie.des").style.display = "none";
-  } else if (previousShownIndex == 4) {
-    document.getElementById("theholdovers.des").style.display = "none";
-  } else if (previousShownIndex == 5) {
-    document.getElementById("killersoftheflowermoon.des").style.display =
-      "none";
+    if (previousShownIndexCast == 1) {
+      document.getElementById("oppenheimer.cast").style.display = "none";
+    } else if (previousShownIndexCast == 2) {
+      document.getElementById("poorthings.cast").style.display = "none";
+    } else if (previousShownIndexCast == 3) {
+      document.getElementById("barbie.cast").style.display = "none";
+    } else if (previousShownIndexCast == 4) {
+      document.getElementById("theholdovers.cast").style.display = "none";
+    } else if (previousShownIndexCast == 5) {
+      document.getElementById("killersoftheflowermoon.cast").style.display =
+        "none";
+    }
   }
 
   previousShownIndex = selectedIndex;
@@ -56,17 +71,31 @@ function ShowCast() {
       "block";
   }
 
-  if (previousShownIndexCast == 1) {
-    document.getElementById("oppenheimer.cast").style.display = "none";
-  } else if (previousShownIndexCast == 2) {
-    document.getElementById("poorthings.cast").style.display = "none";
-  } else if (previousShownIndexCast == 3) {
-    document.getElementById("barbie.cast").style.display = "none";
-  } else if (previousShownIndexCast == 4) {
-    document.getElementById("theholdovers.cast").style.display = "none";
-  } else if (previousShownIndexCast == 5) {
-    document.getElementById("killersoftheflowermoon.cast").style.display =
-      "none";
+  if (previousShownIndexCast != selectedIndex) {
+    if (previousShownIndexCast == 1) {
+      document.getElementById("oppenheimer.cast").style.display = "none";
+    } else if (previousShownIndexCast == 2) {
+      document.getElementById("poorthings.cast").style.display = "none";
+    } else if (previousShownIndexCast == 3) {
+      document.getElementById("barbie.cast").style.display = "none";
+    } else if (previousShownIndexCast == 4) {
+      document.getElementById("theholdovers.cast").style.display = "none";
+    } else if (previousShownIndexCast == 5) {
+      document.getElementById("killersoftheflowermoon.cast").style.display =
+        "none";
+    }
+    if (previousShownIndex == 1) {
+      document.getElementById("oppenheimer.des").style.display = "none";
+    } else if (previousShownIndex == 2) {
+      document.getElementById("poorthings.des").style.display = "none";
+    } else if (previousShownIndex == 3) {
+      document.getElementById("barbie.des").style.display = "none";
+    } else if (previousShownIndex == 4) {
+      document.getElementById("theholdovers.des").style.display = "none";
+    } else if (previousShownIndex == 5) {
+      document.getElementById("killersoftheflowermoon.des").style.display =
+        "none";
+    }
   }
 
   previousShownIndexCast = selectedIndex;

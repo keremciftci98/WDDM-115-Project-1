@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> The Academy Awards 2024 </title>
 
+    <script src="/js/script.js"></script>
 </head>
 
 <body>
@@ -19,31 +20,29 @@
     <!--Movies-->
 
     <!--Oppenheimer-->
-    <button onclick="SelectIndex(1)">
+    <button onclick="ShowInfo()">
         <img src="/assets/oppenheimer.jpg" alt="" width="300" />
     </button>
     <!--Poor Things-->
-    <button onclick="SelectIndex(2)">
+    <button onclick="ShowInfo()">
         <img src="/assets/poor things.jpg" alt="" width="300" />
     </button>
     <!--Barbie-->
-    <button onclick="SelectIndex(3)">
+    <button onclick="ShowInfo()">
         <img src="/assets/barbie.jpg" alt="" width="300" />
     </button>
     <!--The Holdovers-->
-    <button onclick="SelectIndex(4)">
+    <button onclick="ShowInfo()">
         <img src="/assets/theholdovers.jpg" alt="" width="300" />
     </button>
     <!--Killers of the flower moon-->
-    <button onclick="SelectIndex(5)">
+    <button onclick="ShowInfo()">
         <img src="/assets/killersoftheflowermoon.jpg" alt="" width="300" />
     </button>
     <!--Info-->
-    <button onclick="ShowInfo()">Info</button>
-    <button onclick="ShowCast()">Cast</button>
-    <button onclick="GoToTrailerPage()">Watch Trailer</button>
+    <button>Info</button>
 
-    <p style="display:none" id="oppenheimer.des">
+    <p id="oppenheimer.des">
         During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J.
         Robert Oppenheimer to work on the top-secret Manhattan Project.
         Oppenheimer and a team of scientists spend years developing and designing
@@ -51,41 +50,42 @@
         witness the world's first nuclear explosion, forever changing the course
         of history.
     </p>
-    <p style="display:none" id="poorthings.des">
+    <p id="poorthings.des">
         Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure
         across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for
         equality and liberation.
     </p>
-    <p style="display:none" id="barbie.des">
+    <p id="barbie.des">
         Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land.
         However, when they get a chance to go to the real world, they soon discover the joys and perils of living among
         humans.
     </p>
-    <p style="display:none" id="theholdovers.des">
+    <p id="theholdovers.des">
         A curmudgeonly instructor at a New England prep school remains on campus during Christmas break to babysit a
         handful of students with nowhere to go. He soon forms an unlikely bond with a brainy but damaged troublemaker,
         and with the school's head cook, a woman who just lost a son in the Vietnam War.
     </p>
-    <p style="display:none" id="killersoftheflowermoon.des">
+    <p id="killersoftheflowermoon.des">
         Real love crosses paths with unspeakable betrayal as Mollie Burkhart, a member of the Osage Nation, tries to
-        save her community from a spree of murders fueled by oil and greed.
+        save her community from a spree of murders fueled by oil and greed. x
     </p>
     <!--Cast-->
-    <p style="display:none" id="oppenheimer.cast">
+    <button>Cast</button>
+    <p id="oppenheimer.cast">
         Cillian Murphy as J. Robert Oppenheimer
         Emily Blunt as Katherine "Kitty" Oppenheimer
         Matt Damon as Gen. Leslie Groves
         Robert Downey Jr. as Rear Admiral Lewis Strauss
         Florence Pugh as Jean Tatlock
     </p>
-    <p style="display:none" id="poorthings.cast">
+    <p id="poorthings.cast">
         Emma Stone as Bella Baxter
         Mark Ruffalo as Duncan Wedderburn
         Willem Dafoe as Dr. Godwin Baxter
         Ramy Youssef as Max McCandles
         Christopher Abbott as Alfie Blessington
     </p>
-    <p style="display:none" id="barbie.cast">
+    <p id="barbie.cast">
         Margot Robbie as Stereotypical Barbie
         Issa Rae as President Barbie
         Kate McKinnon as Weird Barbie
@@ -95,14 +95,14 @@
         Sharon Rooney as Lawyer Barbie
         Ryan Gosling as Ken
     </p>
-    <p style="display:none" id="theholdovers.cast">
+    <p id="theholdovers.cast">
         Paul Giamatti as Paul Hunham
         Dominic Sessa as Angus Tully
         Da'Vine Joy Randolph as Mary Lamb
         Carrie Preston as Miss Lydia Crane
         Brady Hepner as Teddy Kountze
     </p>
-    <p style="display:none" id="killersoftheflowermoon.cast">
+    <p id="killersoftheflowermoon.cast">
         Leonardo DiCaprio as Ernest Burkhart
         Robert De Niro as William King Hale
         Lily Gladstone as Mollie Burkhart
@@ -111,9 +111,6 @@
     </p>
 
     <script src="/js/script.js"></script>
-
-
-
 
 
 </body>

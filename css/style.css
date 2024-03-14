@@ -30,13 +30,13 @@ li a:hover {
 }
 
 .active {
-  background-color: #4caf60;
+  background-color: #4caf50;
 }
 
 /* Styling the buttons */
 button {
   border: none;
-  background: #4caf6d; /* Change button color */
+  background: #4caf50; /* Change button color */
   cursor: pointer;
   margin: 10px auto; /* Center button */
   padding: 15px 30px; /* Change button size */

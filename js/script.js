@@ -198,4 +198,22 @@ function ChangeTrailer() {
       "https://www.youtube.com/watch?v=EG0si5bSd6I";
     console.log("ChangeTrailer: 55");
   }
+  
+  
+  else if (selectedIndex == 6) {
+    document.getElementById("movietrailer").src =
+      "https://www.youtube.com/watch?v=wxN1T1uxQ2g";
+  }else if (selectedIndex == 7) {
+    document.getElementById("movietrailer").src =
+      "https://www.youtube.com/watch?v=nWiQodhMvz4";
+  }else if (selectedIndex == 8) {
+    document.getElementById("movietrailer").src =
+      "https://www.youtube.com/watch?v=pD0mFhMqDCE&t=2s";
+  }else if (selectedIndex == 9) {
+    document.getElementById("movietrailer").src =
+      "https://www.youtube.com/watch?v=Od2NW1sfRdA";
+  }else if (selectedIndex == 10) {
+    document.getElementById("movietrailer").src =
+      "https://www.youtube.com/watch?v=uRu3zLOJN2c";
+  }
 }

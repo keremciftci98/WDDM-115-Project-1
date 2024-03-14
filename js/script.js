@@ -19,10 +19,19 @@ function ShowInfo() {
   } else if (selectedIndex == 4) {
     document.getElementById("movie4").style.display = "block";
   } else if (selectedIndex == 5) {
-    document.getElementById("movie5").style.display =
-      "block";
+    document.getElementById("movie5").style.display = "block";
+  } else if (selectedIndex == 6) {
+    document.getElementById("movie6").style.display = "block";
+  } else if (selectedIndex == 7) {
+    document.getElementById("movie7").style.display = "block";
+  } else if (selectedIndex == 8) {
+    document.getElementById("movie8").style.display = "block";
+  } else if (selectedIndex == 9) {
+    document.getElementById("movie9").style.display = "block";
+  } else if (selectedIndex == 10) {
+    document.getElementById("movie10").style.display = "block";
   }
-  
+
   if (previousShownIndex != selectedIndex) {
     if (previousShownIndex == 1) {
       document.getElementById("movie1").style.display = "none";
@@ -33,8 +42,17 @@ function ShowInfo() {
     } else if (previousShownIndex == 4) {
       document.getElementById("movie4").style.display = "none";
     } else if (previousShownIndex == 5) {
-      document.getElementById("movie5").style.display =
-        "none";
+      document.getElementById("movie5").style.display = "none";
+    } else if (previousShownIndex == 6) {
+      document.getElementById("movie6").style.display = "none";
+    } else if (previousShownIndex == 7) {
+      document.getElementById("movie7").style.display = "none";
+    } else if (previousShownIndex == 8) {
+      document.getElementById("movie8").style.display = "none";
+    } else if (previousShownIndex == 9) {
+      document.getElementById("movie9").style.display = "none";
+    } else if (previousShownIndex == 10) {
+      document.getElementById("movie10").style.display = "none";
     }
 
     if (previousShownIndexCast == 1) {
@@ -48,6 +66,16 @@ function ShowInfo() {
     } else if (previousShownIndexCast == 5) {
       document.getElementById("killersoftheflowermoon.cast").style.display =
         "none";
+    } else if (previousShownIndex == 6) {
+      document.getElementById("movie6cast").style.display = "none";
+    } else if (previousShownIndex == 7) {
+      document.getElementById("movie7cast").style.display = "none";
+    } else if (previousShownIndex == 8) {
+      document.getElementById("movie8cast").style.display = "none";
+    } else if (previousShownIndex == 9) {
+      document.getElementById("movie9cast").style.display = "none";
+    } else if (previousShownIndex == 10) {
+      document.getElementById("movie10cast").style.display = "none";
     }
   }
 
@@ -69,6 +97,16 @@ function ShowCast() {
   } else if (selectedIndex == 5) {
     document.getElementById("killersoftheflowermoon.cast").style.display =
       "block";
+  } else if (selectedIndex == 6) {
+    document.getElementById("movie6cast").style.display = "block";
+  } else if (selectedIndex == 7) {
+    document.getElementById("movie7cast").style.display = "block";
+  } else if (selectedIndex == 8) {
+    document.getElementById("movie8cast").style.display = "block";
+  } else if (selectedIndex == 9) {
+    document.getElementById("movie9cast").style.display = "block";
+  } else if (selectedIndex == 10) {
+    document.getElementById("movie10cast").style.display = "block";
   }
 
   if (previousShownIndexCast != selectedIndex) {
@@ -83,7 +121,18 @@ function ShowCast() {
     } else if (previousShownIndexCast == 5) {
       document.getElementById("killersoftheflowermoon.cast").style.display =
         "none";
+    } else if (previousShownIndexCast == 6) {
+      document.getElementById("movie6cast").style.display = "none";
+    } else if (previousShownIndexCast == 7) {
+      document.getElementById("movie7cast").style.display = "none";
+    } else if (previousShownIndexCast == 8) {
+      document.getElementById("movie8cast").style.display = "none";
+    } else if (previousShownIndexCast == 9) {
+      document.getElementById("movie9cast").style.display = "none";
+    } else if (previousShownIndexCast == 10) {
+      document.getElementById("movie10cast").style.display = "none";
     }
+
     if (previousShownIndex == 1) {
       document.getElementById("movie1").style.display = "none";
     } else if (previousShownIndex == 2) {
@@ -93,8 +142,17 @@ function ShowCast() {
     } else if (previousShownIndex == 4) {
       document.getElementById("movie4").style.display = "none";
     } else if (previousShownIndex == 5) {
-      document.getElementById("movie5").style.display =
-        "none";
+      document.getElementById("movie5").style.display = "none";
+    }else if (previousShownIndex == 6) {
+      document.getElementById("movie6").style.display = "none";
+    }else if (previousShownIndex == 7) {
+      document.getElementById("movie7").style.display = "none";
+    }else if (previousShownIndex == 8) {
+      document.getElementById("movie8").style.display = "none";
+    }else if (previousShownIndex == 9) {
+      document.getElementById("movie9").style.display = "none";
+    }else if (previousShownIndex == 10) {
+      document.getElementById("movie10").style.display = "none";
     }
   }
 

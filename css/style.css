@@ -3,6 +3,7 @@ body, ul {
   margin: 0;
   padding: 0;
   background-color: black;
+  color: white; /* Change text color to white */
 }
 
 /* Styling the navigation */
@@ -68,7 +69,7 @@ img {
   max-width: 100%; /* Style 11: Maximum width */
   height: auto; /* Style 12: Auto height */
   border-radius: 5px; /* Style 13: Rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Style 14: Box shadow */
+  box-shadow: 0 0 10px rgba(48, 48, 48, 0.995); /* Style 14: Box shadow */
 }
 
 /* Styling the h1 */

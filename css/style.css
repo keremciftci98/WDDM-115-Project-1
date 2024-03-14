@@ -42,7 +42,7 @@ button {
   padding: 15px 30px; /* Change button size */
   border-radius: 8px; /* Style 4: Rounded corners */
   color: white; /* Change button text color */
-  font-family: Arial, sans-serif; /* Change button text font */
+  font-family: Arial, sans-serif; /* Change paragraph text font *
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
 }

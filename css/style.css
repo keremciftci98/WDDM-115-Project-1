@@ -36,7 +36,7 @@ li a:hover {
 /* Styling the buttons */
 button {
   border: none;
-  background: #4CAF50; /* Change button color */
+  background: #4caf6d; /* Change button color */
   cursor: pointer;
   margin: 10px auto; /* Center button */
   padding: 15px 30px; /* Change button size */

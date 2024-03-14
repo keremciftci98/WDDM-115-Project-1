@@ -56,16 +56,15 @@ function ShowInfo() {
     }
 
     if (previousShownIndexCast == 1) {
-      document.getElementById("oppenheimer.cast").style.display = "none";
+      document.getElementById("movie1cast").style.display = "none";
     } else if (previousShownIndexCast == 2) {
-      document.getElementById("poorthings.cast").style.display = "none";
+      document.getElementById("movie2cast").style.display = "none";
     } else if (previousShownIndexCast == 3) {
-      document.getElementById("barbie.cast").style.display = "none";
+      document.getElementById("movie3cast").style.display = "none";
     } else if (previousShownIndexCast == 4) {
-      document.getElementById("theholdovers.cast").style.display = "none";
+      document.getElementById("movie4cast").style.display = "none";
     } else if (previousShownIndexCast == 5) {
-      document.getElementById("killersoftheflowermoon.cast").style.display =
-        "none";
+      document.getElementById("movie5cast").style.display = "none";
     } else if (previousShownIndex == 6) {
       document.getElementById("movie6cast").style.display = "none";
     } else if (previousShownIndex == 7) {
@@ -87,16 +86,15 @@ function ShowCast() {
   console.log("ShowCast index: " + selectedIndex);
 
   if (selectedIndex == 1) {
-    document.getElementById("oppenheimer.cast").style.display = "block";
+    document.getElementById("movie1cast").style.display = "block";
   } else if (selectedIndex == 2) {
-    document.getElementById("poorthings.cast").style.display = "block";
+    document.getElementById("movie2cast").style.display = "block";
   } else if (selectedIndex == 3) {
-    document.getElementById("barbie.cast").style.display = "block";
+    document.getElementById("movie3cast").style.display = "block";
   } else if (selectedIndex == 4) {
-    document.getElementById("theholdovers.cast").style.display = "block";
+    document.getElementById("movie4cast").style.display = "block";
   } else if (selectedIndex == 5) {
-    document.getElementById("killersoftheflowermoon.cast").style.display =
-      "block";
+    document.getElementById("movie5cast").style.display = "block";
   } else if (selectedIndex == 6) {
     document.getElementById("movie6cast").style.display = "block";
   } else if (selectedIndex == 7) {
@@ -111,16 +109,15 @@ function ShowCast() {
 
   if (previousShownIndexCast != selectedIndex) {
     if (previousShownIndexCast == 1) {
-      document.getElementById("oppenheimer.cast").style.display = "none";
+      document.getElementById("movie1cast").style.display = "none";
     } else if (previousShownIndexCast == 2) {
-      document.getElementById("poorthings.cast").style.display = "none";
+      document.getElementById("movie2cast").style.display = "none";
     } else if (previousShownIndexCast == 3) {
-      document.getElementById("barbie.cast").style.display = "none";
+      document.getElementById("movie3cast").style.display = "none";
     } else if (previousShownIndexCast == 4) {
-      document.getElementById("theholdovers.cast").style.display = "none";
+      document.getElementById("movie4cast").style.display = "none";
     } else if (previousShownIndexCast == 5) {
-      document.getElementById("killersoftheflowermoon.cast").style.display =
-        "none";
+      document.getElementById("movie5cast").style.display = "none";
     } else if (previousShownIndexCast == 6) {
       document.getElementById("movie6cast").style.display = "none";
     } else if (previousShownIndexCast == 7) {
@@ -143,15 +140,15 @@ function ShowCast() {
       document.getElementById("movie4").style.display = "none";
     } else if (previousShownIndex == 5) {
       document.getElementById("movie5").style.display = "none";
-    }else if (previousShownIndex == 6) {
+    } else if (previousShownIndex == 6) {
       document.getElementById("movie6").style.display = "none";
-    }else if (previousShownIndex == 7) {
+    } else if (previousShownIndex == 7) {
       document.getElementById("movie7").style.display = "none";
-    }else if (previousShownIndex == 8) {
+    } else if (previousShownIndex == 8) {
       document.getElementById("movie8").style.display = "none";
-    }else if (previousShownIndex == 9) {
+    } else if (previousShownIndex == 9) {
       document.getElementById("movie9").style.display = "none";
-    }else if (previousShownIndex == 10) {
+    } else if (previousShownIndex == 10) {
       document.getElementById("movie10").style.display = "none";
     }
   }
@@ -197,22 +194,19 @@ function ChangeTrailer() {
     document.getElementById("movietrailer").src =
       "https://www.youtube.com/watch?v=EG0si5bSd6I";
     console.log("ChangeTrailer: 55");
-  }
-  
-  
-  else if (selectedIndex == 6) {
+  } else if (selectedIndex == 6) {
     document.getElementById("movietrailer").src =
       "https://www.youtube.com/watch?v=wxN1T1uxQ2g";
-  }else if (selectedIndex == 7) {
+  } else if (selectedIndex == 7) {
     document.getElementById("movietrailer").src =
       "https://www.youtube.com/watch?v=nWiQodhMvz4";
-  }else if (selectedIndex == 8) {
+  } else if (selectedIndex == 8) {
     document.getElementById("movietrailer").src =
       "https://www.youtube.com/watch?v=pD0mFhMqDCE&t=2s";
-  }else if (selectedIndex == 9) {
+  } else if (selectedIndex == 9) {
     document.getElementById("movietrailer").src =
       "https://www.youtube.com/watch?v=Od2NW1sfRdA";
-  }else if (selectedIndex == 10) {
+  } else if (selectedIndex == 10) {
     document.getElementById("movietrailer").src =
       "https://www.youtube.com/watch?v=uRu3zLOJN2c";
   }

@@ -1,78 +1,87 @@
-* Resetting default margin and padding */
+/* Resetting default margin and padding */
 body, ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Styling the navigation */
 ul {
-    list-style-type: none;
-    background-color: #333;
-    overflow: hidden;
-    margin-bottom: 20px; /* Style 1: Margin bottom */
-    padding: 10px; /* Style 2: Padding */
+  list-style-type: none;
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 20px; /* Style 1: Margin bottom */
+  padding: 10px; /* Style 2: Padding */
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
-    background-color: #4CAF50;
+  background-color: #4CAF50;
 }
 
 /* Styling the buttons */
 button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px; /* Style 3: Padding */
-    border-radius: 5px; /* Style 4: Rounded corners */
-    color: #333; /* Style 5: Text color */
-    border: 1px solid #333; /* Style 6: Border */
+  border: none;
+  background: #4CAF50; /* Change button color */
+  cursor: pointer;
+  margin: 10px auto; /* Center button */
+  padding: 15px 30px; /* Change button size */
+  border-radius: 8px; /* Style 4: Rounded corners */
+  color: white; /* Change button text color */
+  font-family: Arial, sans-serif; /* Change button text font */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 /* Styling the descriptions */
 p {
-    display: none;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 10px; /* Style 7: Margin top */
-    background-color: #f9f9f9; /* Style 8: Background color */
-    font-size: 16px; /* Style 9: Font size */
-    line-height: 1.5; /* Style 10: Line height */
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px; /* Style 7: Margin top */
+  background-color: #f9f9f9; /* Style 8: Background color */
+  font-size: 16px; /* Style 9: Font size */
+  line-height: 1.5; /* Style 10: Line height */
+  font-family: Arial, sans-serif; /* Change paragraph text font */
+  color: #333; /* Change paragraph text color */
 }
 
 /* Styling the images */
 img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; /* Style 11: Maximum width */
-    height: auto; /* Style 12: Auto height */
-    border-radius: 5px; /* Style 13: Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Style 14: Box shadow */
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Style 11: Maximum width */
+  height: auto; /* Style 12: Auto height */
+  border-radius: 5px; /* Style 13: Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Style 14: Box shadow */
+}
+
+/* Styling the h1 */
+h1 {
+  font-family: Arial, sans-serif; /* Change h1 font */
 }
 
 /* Responsive design */
 @media only screen and (max-width: 600px) {
-    li {
-        float: none;
-    }
-    li a {
-        display: block;
-        text-align: center;
-    }
+  li {
+      float: none;
+  }
+  li a {
+      display: block;
+      text-align: center;
+  }
 }

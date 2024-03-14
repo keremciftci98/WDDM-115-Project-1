@@ -11,29 +11,29 @@ function ShowInfo() {
   console.log("ShowInfo index: " + selectedIndex);
 
   if (selectedIndex == 1) {
-    document.getElementById("oppenheimer.des").style.display = "block";
+    document.getElementById("movie1").style.display = "block";
   } else if (selectedIndex == 2) {
-    document.getElementById("poorthings.des").style.display = "block";
+    document.getElementById("movie2").style.display = "block";
   } else if (selectedIndex == 3) {
-    document.getElementById("barbie.des").style.display = "block";
+    document.getElementById("movie3").style.display = "block";
   } else if (selectedIndex == 4) {
-    document.getElementById("theholdovers.des").style.display = "block";
+    document.getElementById("movie4").style.display = "block";
   } else if (selectedIndex == 5) {
-    document.getElementById("killersoftheflowermoon.des").style.display =
+    document.getElementById("movie5").style.display =
       "block";
   }
   
   if (previousShownIndex != selectedIndex) {
     if (previousShownIndex == 1) {
-      document.getElementById("oppenheimer.des").style.display = "none";
+      document.getElementById("movie1").style.display = "none";
     } else if (previousShownIndex == 2) {
-      document.getElementById("poorthings.des").style.display = "none";
+      document.getElementById("movie2").style.display = "none";
     } else if (previousShownIndex == 3) {
-      document.getElementById("barbie.des").style.display = "none";
+      document.getElementById("movie3").style.display = "none";
     } else if (previousShownIndex == 4) {
-      document.getElementById("theholdovers.des").style.display = "none";
+      document.getElementById("movie4").style.display = "none";
     } else if (previousShownIndex == 5) {
-      document.getElementById("killersoftheflowermoon.des").style.display =
+      document.getElementById("movie5").style.display =
         "none";
     }
 
@@ -85,15 +85,15 @@ function ShowCast() {
         "none";
     }
     if (previousShownIndex == 1) {
-      document.getElementById("oppenheimer.des").style.display = "none";
+      document.getElementById("movie1").style.display = "none";
     } else if (previousShownIndex == 2) {
-      document.getElementById("poorthings.des").style.display = "none";
+      document.getElementById("movie2").style.display = "none";
     } else if (previousShownIndex == 3) {
-      document.getElementById("barbie.des").style.display = "none";
+      document.getElementById("movie3").style.display = "none";
     } else if (previousShownIndex == 4) {
-      document.getElementById("theholdovers.des").style.display = "none";
+      document.getElementById("movie4").style.display = "none";
     } else if (previousShownIndex == 5) {
-      document.getElementById("killersoftheflowermoon.des").style.display =
+      document.getElementById("movie5").style.display =
         "none";
     }
   }

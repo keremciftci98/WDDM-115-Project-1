@@ -51,8 +51,12 @@
         <img src="/assets/killersoftheflowermoon.jpg" alt="" width="300" />
     </button>
     <!--Info-->
-    <button>Info</button>
-    <!--Oppenheimer-->
+    <button onclick="ShowInfo()">Info</button>
+    <button onclick="ShowCast()">Cast</button>
+    <button onclick="GoToTrailerPage()">Watch Trailer</button>
+
+    <div   style="display:none"  id="movie1">
+<!--Oppenheimer-->
     <p id="oppenheimer.des">
         <!--Awards-->
        <h3> Won:</h3> 
@@ -70,6 +74,9 @@
         witness the world's first nuclear explosion, forever changing the course
         of history.
     </p>
+    </div>
+    
+    <div   style="display:none"  id="movie2">
     <!--Poor Things-->
     <p id="poorthings.des">
          <!--Awards-->
@@ -86,8 +93,11 @@
         across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for
         equality and liberation.
     </p>
+    
+</div>
+    <div   style="display:none"  id="movie3">
     <!--Barbie-->
-    <p id="barbie.des">
+    <p  id="barbie.des">
         <!--Awards-->
         <h3> Nominated: </h3> 
          <ul>
@@ -104,9 +114,11 @@
         humans.
         
     </p>
+</div>
 
+    <div   style="display:none"  id="movie4">
     <!--The Holdovers-->
-    <p id="theholdovers.des">
+    <p  id="theholdovers.des">
          <!--Awards-->
          <h3> Won: </h3> 
          <ul>
@@ -117,9 +129,12 @@
         A curmudgeonly instructor at a New England prep school remains on campus during Christmas break to babysit a
         handful of students with nowhere to go. He soon forms an unlikely bond with a brainy but damaged troublemaker,
         and with the school's head cook, a woman who just lost a son in the Vietnam War.
-    </p>
+    </p>    
+</div>
+
+    <div   style="display:none"  id="movie5">
     <!--Killers Of The Flower Moon-->
-    <p id="killersoftheflowermoon.des">
+    <p style="display:none" id="killersoftheflowermoon.des">
          <!--Awards-->
          <h3> Nominated </h3> 
          <ul>
@@ -133,10 +148,9 @@
         Real love crosses paths with unspeakable betrayal as Mollie Burkhart, a member of the Osage Nation, tries to
         save her community from a spree of murders fueled by oil and greed. x
     </p>
-
+</div>
 <!--Cast-->
 
-    <button>Cast</button>
     <p id="oppenheimer.cast">
         Cillian Murphy as J. Robert Oppenheimer
         Emily Blunt as Katherine "Kitty" Oppenheimer

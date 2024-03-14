@@ -161,7 +161,7 @@ function GoToTrailerPage() {
 }
 
 function BackButton() {
-  document.location.href = "/html/index2.html";
+  document.location.href = "/html/index.html";
 }
 
 function ChangeTrailer() {

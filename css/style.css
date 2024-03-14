@@ -73,6 +73,7 @@ img {
 /* Styling the h1 */
 h1 {
   font-family: Arial, sans-serif; /* Change h1 font */
+  text-align: center;
 }
 
 /* Responsive design */
